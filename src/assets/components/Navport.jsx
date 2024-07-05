@@ -7,14 +7,14 @@ function Port (){
     return(
 
 <div className="bg-black sticky top-0 z-50">
- <nav className=" border-b border-yellow-500">
+ <nav className=" border-b border-yellow-500 ">
        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-">
          <div className="flex h-20 items-center justify-between ">
            <div
             className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
                <NavLink className="flex flex-shrink-0 items-center mr-4" to="/">
               <img
-                className="h-10 w-auto"
+                className="h-10 w-auto z-10 ml-2"
                 src={logo}
                 alt="Marvitech logo"
               />
@@ -26,27 +26,26 @@ function Port (){
               <div className="flex space-x-2">
                 <NavLink
                   to="/"
-                  className={linkClass}
-                  >Home</NavLink>
+                  className={linkClass}>
+                  Home</NavLink>
                 
                 <NavLink
                   to="/about"
-                  className={linkClass}
-                  >About</NavLink>
+                  className={linkClass}>
+                  About</NavLink>
                 
                 <NavLink
                   to="/services"
-                  className={linkClass}
-                  >Services</NavLink>
+                  className={linkClass}>
+                  Services</NavLink>
                 
                 <NavLink
                   to="/skills"
-                  className={linkClass}
-                  >Skills</NavLink>
+                  className={linkClass}>
+                  Skills</NavLink>
                 
                 
-              
-                
+               
               </div>
             </div>
 

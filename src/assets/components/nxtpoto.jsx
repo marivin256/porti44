@@ -1,7 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import portimg from '/src/assets/components/portimg.png'
 
-function Porto(){
+    
+    function Porto(){
+    
     return(
         <div className='bg-black'>
 
@@ -9,7 +11,7 @@ function Porto(){
 <div className='flex flex-col lg:flex-row justify-between mb-4'>
     
 
-<img src={portimg} alt="" id='pica' className='rounded-full'/>
+<img  src={portimg} alt="" id='pica' className='rounded-full '/>
 <div className=' w-3/5'>
 <div className="text-white mt-20 px-6 max-w-xl">
  <div className="  mx-auto max-w-8xl px-2 sm:p-6 lg:px-8"> 
@@ -19,7 +21,17 @@ function Porto(){
                 <div className="md:ml-auto "></div> 
 
     <div className='text-3xl font-extrabold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'>About Me,</div>
-    <div className='text-slate-500'>I'm a skilled Fullstack Developer with a Bachelors Degree in Software Engineering and go by the theme:<br/><span className='text-yellow-600'>"Work Hard in silence and let your succes make the noise"</span></div>
+
+    
+
+<div className="scramble text-slate-500">I'm a Fullstack Web and Mobile Application Developer with a Bachelors Degree in
+Information Technologyand go by the theme:</div>
+
+<div className="newClass text-yellow-500">"Work Haed in silence and let your success make the noise."</div>
+
+
+
+
     <span className='font-bold'>Name:</span>
     <span>Tomusange Marvin</span><br /><br />
     <span className='font-bold'>Date of birth:</span>
@@ -28,7 +40,7 @@ function Porto(){
     <span>Gaba kansanga</span><br /><br />
     
 
-<div className='text-3xl font-extrabold text-yellow-700 mb-6'>23 <span className='text-white'>Projects Complete</span></div>
+<div className='text-center text-3xl font-extrabold text-yellow-700 mb-6'>23 <span className='text-white'>Projects Complete</span></div>
 <button className='p-3 mb-6 bg-yellow-600 rounded-full text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-white'><NavLink to="/cv">DOWNLOAD CV</NavLink></button>
     </div>
     </div>
