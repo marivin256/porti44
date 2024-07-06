@@ -1,5 +1,5 @@
 
-import gsap from "gsap";
+import {gsap} from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Corporation from "/src/assets/components/Corporation.jpg"
