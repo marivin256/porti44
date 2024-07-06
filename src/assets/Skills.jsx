@@ -13,20 +13,20 @@ function App () {
 
   useGSAP(() => {
 
-  function animateFrom(elem, direction) {
+  function animateFrom(ele, direction) {
     direction = direction || 1;
     var x = 0,
         y = direction * 100;
-    if(elem.classList.contains("gs_reveal_fromLeft")) {
+    if(ele.classList.contains("gs_reveal_fromLeft")) {
       x = -200;
       y = 0;
-    } else if (elem.classList.contains("gs_reveal_fromRight")) {
+    } else if (ele.classList.contains("gs_reveal_fromRight")) {
       x = 100;
       y = 0;
     }
-    elem.style.transform = "translate(" + x + "px, " + y + "px)";
-    elem.style.opacity = "0";
-    gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
+    ele.style.transform = "translate(" + x + "px, " + y + "px)";
+    ele.style.opacity = "0";
+    gsap.fromTo(ele, {x: x, y: y, autoAlpha: 0}, {
       duration: 1.25, 
       x: 0,
       y: 0, 
@@ -36,22 +36,22 @@ function App () {
     });
   }
   
-  function hide(elem) {
-    gsap.set(elem, {autoAlpha: 0});
+  function hide(ele) {
+    gsap.set(ele, {autoAlpha: 0});
   }
   
   document.addEventListener("DOMContentLoaded", function() {
     gsap.registerPlugin(ScrollTrigger);
     
-    gsap.utils.toArray(".gs_reveal").forEach(function(elem) {
-      hide(elem); // assure that the element is hidden when scrolled into view
+    gsap.utils.toArray(".gs_reveal").forEach(function(ele) {
+      hide(ele); 
       
       ScrollTrigger.create({
-        trigger: elem,
+        trigger: ele,
         markers: false,
-        onEnter: function() { animateFrom(elem) }, 
-        onEnterBack: function() { animateFrom(elem, -1) },
-        onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
+        onEnter: function() { animateFrom(ele) }, 
+        onEnterBack: function() { animateFrom(ele, -1) },
+        onLeave: function() { hide(ele) } 
       });
     });
   });
