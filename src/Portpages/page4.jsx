@@ -1,4 +1,4 @@
-import Skills from '../assets/Skills'
+import Skills from '../assets/components/Skills';
 function Page4(){
     return(
 <>
