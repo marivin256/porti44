@@ -9,8 +9,7 @@ import Program from "/src/assets/components/Program.jpg"
 gsap.registerPlugin(ScrollTrigger);
 function App () {
 
-  useGSAP(() => {
-
+  
   function animateFrom(ele, direction) {
     direction = direction || 1;
     var x = 0,
@@ -53,7 +52,7 @@ function App () {
       });
     });
   });
-  })
+
   
 
   return(
