@@ -1,5 +1,5 @@
 
-
+import { useEffect } from "react"
 import Corporation from "/src/assets/components/Corporation.jpg"
 import Problem from "/src/assets/components/Problem.jpg"
 import Debug from "/src/assets/components/Debug.jpg"
@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
 function Skills () {
 
   
-     
+    useEffect(() => { 
 
     gsap.fromTo(".box",
     {
@@ -38,7 +38,7 @@ function Skills () {
     )
 
 
-    
+  }, []);
   
   
   
