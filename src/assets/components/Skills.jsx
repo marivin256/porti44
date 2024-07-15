@@ -6,10 +6,10 @@ import Debug from "/src/assets/components/Debug.jpg"
 import Program from "/src/assets/components/Program.jpg"
 
 
-
+gsap.registerPlugin(ScrollTrigger);
 function Skills () {
 
-  useGSAP(( direction) => {
+  useGSAP(() => {
      
 
     gsap.fromTo(".box",
