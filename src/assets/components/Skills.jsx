@@ -9,7 +9,7 @@ import Program from "/src/assets/components/Program.jpg"
 gsap.registerPlugin(ScrollTrigger);
 function Skills () {
 
-  useGSAP(() => {
+  
      
 
     gsap.fromTo(".box",
@@ -40,7 +40,7 @@ function Skills () {
 
     
   
-  })
+  
   
 
   return(
