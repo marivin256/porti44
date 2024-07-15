@@ -78,14 +78,14 @@ img {
 }
 
 .header-section {
-  margin: 200px auto;
+  margin: 80px auto;
 }
 
-.gs_reveal {
-  opacity: 0;
-  visibility: hidden;
+/* .gs_reveal {
+  opacity: 2;
+   visibility: hidden; 
   will-change: transform, opacity;
-}
+} */
 
 /* initial image */
 #pica{
