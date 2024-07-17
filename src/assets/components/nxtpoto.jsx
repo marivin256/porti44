@@ -41,7 +41,7 @@ Information Technologyand go by the theme:</div>
     
 
 <div className='text-center text-3xl font-extrabold text-yellow-700 mb-6'>23 <span className='text-white'>Projects Complete</span></div>
-<button className='p-3 mb-6 bg-yellow-600 rounded-full text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-white'><a href="" download>DOWNLOAD CV</a></button>
+<button className='p-3 mb-6 bg-yellow-600 rounded-full text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-white'><a href="/src/assets/components/cv.pdf" download>DOWNLOAD CV</a></button>
     </div>
     </div>
     </div>
