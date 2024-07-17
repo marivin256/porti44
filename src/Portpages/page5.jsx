@@ -1,6 +1,6 @@
 import Contact from "../assets/components/Contact";
 
-function Page4(){
+function Page5(){
     return(
 <>
 <Contact/>
@@ -8,4 +8,4 @@ function Page4(){
 
     )
 }
-export default Page4;
+export default Page5;
