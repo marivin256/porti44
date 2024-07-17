@@ -23,12 +23,12 @@ import portimg from '/src/assets/components/portimg.png'
     <div className='text-3xl font-extrabold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'>About Me,</div>
 
     
-
-<div className="scramble text-slate-500">I'm a Fullstack Web and Mobile Application Developer with a Bachelors Degree in
+<div className='scramble'>
+<div className="text text-slate-500">I'm a Fullstack Web and Mobile Application Developer with a Bachelors Degree in
 Information Technologyand go by the theme:</div>
 
 <div className="newClass text-yellow-500">"Work Haed in silence and let your success make the noise."</div>
-
+</div>
 
 
 
@@ -41,7 +41,7 @@ Information Technologyand go by the theme:</div>
     
 
 <div className='text-center text-3xl font-extrabold text-yellow-700 mb-6'>23 <span className='text-white'>Projects Complete</span></div>
-<button className='p-3 mb-6 bg-yellow-600 rounded-full text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-white'><NavLink to="/cv">DOWNLOAD CV</NavLink></button>
+<button className='p-3 mb-6 bg-yellow-600 rounded-full text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:text-white'><a href="" download>DOWNLOAD CV</a></button>
     </div>
     </div>
     </div>

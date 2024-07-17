@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}) {
     return(
         <div>
@@ -41,12 +43,12 @@ function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}
 
               <div className="flex flex-col lg:flex-row justify-between mb-4">
                 
-                <a
-                  href="job.html"
+                <NavLink
+                  to="/contact"
                   className="h-[36px] bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Request Service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -68,12 +70,12 @@ function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}
 
               <div className="flex flex-col lg:flex-row justify-between mb-4">
                 
-                <a
-                  href="job.html"
+                <NavLink
+                  to="/contact"
                   className="h-[36px] bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Request Service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -97,12 +99,12 @@ function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}
 
               <div className="flex flex-col lg:flex-row justify-between mb-4">
                 
-                <a
-                  href="job.html"
+                <NavLink
+                  to="/contact"
                   className="h-[36px] bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Request Service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -133,12 +135,12 @@ function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}
 
               <div className="flex flex-col lg:flex-row justify-between mb-4">
                 
-                <a
-                  href="job.html"
+                <NavLink
+                  to="/contact"
                   className="h-[36px] bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Request Service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -160,12 +162,12 @@ function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}
 
               <div className="flex flex-col lg:flex-row justify-between mb-4">
                 
-                <a
-                  href="job.html"
+                <NavLink
+                  to="/contact"
                   className="h-[36px] bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Request Service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -187,12 +189,12 @@ function Serv ({title='SERVICES', subtitle='"Best Services Offered Including;"'}
 
               <div className="flex flex-col lg:flex-row justify-between mb-4">
                 
-                <a
-                  href="job.html"
+                <NavLink
+                  to="/contact"
                   className="h-[36px] bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-center text-sm"
                 >
                  Request Service
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>

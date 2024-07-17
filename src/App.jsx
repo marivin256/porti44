@@ -7,6 +7,7 @@ import {Route, createBrowserRouter,
   import Page2 from './Portpages/page2'
   import Page3 from './Portpages/page3'
   import Page4 from './Portpages/page4'
+  import Page5 from './Portpages/page5'
   import Notfoundpage from './Pages/Notfoundpage'
   const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ import {Route, createBrowserRouter,
   <Route path='/about' element={<Page2/>}/>
   <Route path='/services' element={<Page3/>}/>
   <Route path='/skills' element={<Page4/>}/>
+  <Route path='/contact' element={<Page5/>}/>
   <Route path='*' element={<Notfoundpage/>}/>
   
   </Route>

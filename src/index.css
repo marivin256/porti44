@@ -91,3 +91,33 @@ img {
 #pica{
   width: 50%;
 }
+
+.scramble{
+  display: inline-block;
+  /* margin: 20%;*/
+} 
+
+.text{
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  
+  animation: typing 2s steps(40, end) ;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+
+  to{
+    width: 100%;
+  }
+}
+
+.svj{
+  width: 10%;
+  padding: 10px;
+  margin: auto;
+  
+}
+
