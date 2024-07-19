@@ -74,7 +74,7 @@ useEffect(() => {
 
       <div className="ipsGrid_span7 ipsType_left">
         <h2 className="heading_large gs_reveal"><strong className="text-yellow-600">CORPERATION SKILLS</strong> </h2>
-        <p className="gs_reveal">As a Software Developer, I often interuct with my colligues and Clients frequently, Which creates and strong bond between me, my colligues and my Clients.</p>
+        <p className="gs_reveal">As a Software Developer, I often interuct with my colleagues and Clients frequently, Which creates and strong bond between me, my colligues and my Clients.</p>
       </div>
     </div>
 
